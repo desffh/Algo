@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51BCA28-8910-41CC-AD33-D5810B39571E}|Class3th (Bubble Sort)\\Class3th (Bubble Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Class3th (Bubble Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A51BCA28-8910-41CC-AD33-D5810B39571E}|Class3th (Bubble Sort)\\Class3th (Bubble Sort).vcxproj|solutionrelative:Class3th (Bubble Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C25D1E-CA42-4C60-B662-CD7374BC7AB2}|Class2th (Brute Force)\\Class2th (Brute Force).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Class2th (Brute Force)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D2C25D1E-CA42-4C60-B662-CD7374BC7AB2}|Class2th (Brute Force)\\Class2th (Brute Force).vcxproj|solutionrelative:Class2th (Brute Force)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D551A63-5F35-4C4E-95E1-E2FC368DE992}|Class1th (Time Complexity \u0026 Space Complexity)\\Class1th (Time Complexity \u0026 Space Complexity).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D551A63-5F35-4C4E-95E1-E2FC368DE992}|Class1th (Time Complexity \u0026 Space Complexity)\\Class1th (Time Complexity \u0026 Space Complexity).vcxproj|solutionrelative:Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeToolTip": "Class3th (Bubble Sort)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T06:32:11.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Class2th (Brute Force)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class2th (Brute Force)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Class2th (Brute Force)\\Source.cpp",
+              "RelativeToolTip": "Class2th (Brute Force)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T05:36:02.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "RelativeToolTip": "Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T05:07:16.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T04:19:09.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
