@@ -1,57 +1,38 @@
 ﻿#include <iostream>
-#define SIZE 16
+#define SIZE 10
 using namespace std;
 
-// 입력한 n이 소수인지 판별
-bool IsPrime(int n)
+// 계수 정렬
+int main()
 {
-	if (n <= 1)
-	{
-		return false;
-	}
+#pragma region 계수 정렬
+	// 데이터의 값을 비교하지 않고, 각 원소에 데이터가
+	// 몇 개 있는지 개수를 세어 저장한 뒤 정렬하는 알고리즘입니다.
 
-	// n = 2일때 반복문 조건에 맞지 않아 실행x
+	int array[SIZE] = { 1,1,3,1,2,3,4,4,2,5 };
 
-	for (int i = 2; i < n; i++)
-	{
-		if (n % i == 0)
-		{
-			return false;// 0
-		}
-	}
-	return true; // 1
-}
+	int count[5] = {0, };
 
-// 에라토스테네스의 체
-void Sieve(int n)
-{
-	int * array = new int[SIZE];
-
-	// 값 초기화
 	for (int i = 0; i < SIZE; i++)
 	{
-		array[i] = i;
+		count[array[i] - 1]++;
 	}
-
-	for (int i = 2; i < n; i++)
-	{
-		for (int j = i * 2; j < n; j + j)
-		{
-			array[j] = 0;
-		}
-	}
-
-	for (int i = 0; i < n; i++)
+	
+	for (int i = 0; i < 5; i++)
 	{
 		if (array[i] != 0)
 		{
-			cout << array[i] << " ";
+			for (int j = 0; j < count[i]; j++)
+			{
+				cout << i + 1 << " ";
+			}
 		}
+
 	}
-}
-int main()
-{
-	// cout << IsPrime(2);
-	Sieve(16);
+
+	
+#pragma endregion
+
+
 	return 0;
 }
