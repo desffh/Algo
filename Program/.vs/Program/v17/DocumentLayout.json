@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D93E36C0-5D2A-4104-8801-6FA4B5EB7E37}|Class11th (Quick Sort)\\Class11th (Quick Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class11th (Quick Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D93E36C0-5D2A-4104-8801-6FA4B5EB7E37}|Class11th (Quick Sort)\\Class11th (Quick Sort).vcxproj|solutionrelative:Class11th (Quick Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E88D889E-D11E-422C-99D5-25C3C0466AD1}|Class10th (Divide And Conquer)\\Class10th (Divide And Conquer).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class10th (Divide And Conquer)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E88D889E-D11E-422C-99D5-25C3C0466AD1}|Class10th (Divide And Conquer)\\Class10th (Divide And Conquer).vcxproj|solutionrelative:Class10th (Divide And Conquer)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08691E6B-76D6-45DE-B3D8-42530382754F}|Class9th (Count Sort)\\Class9th (Count Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class9th (Count Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08691E6B-76D6-45DE-B3D8-42530382754F}|Class9th (Count Sort)\\Class9th (Count Sort).vcxproj|solutionrelative:Class9th (Count Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7303D40F-F8F9-4105-B1C9-5EA5C4E957B6}|Class8th (Binary Search)\\Class8th (Binary Search).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class8th (Binary Search)\\Class8th (Binary Search).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7303D40F-F8F9-4105-B1C9-5EA5C4E957B6}|Class8th (Binary Search)\\Class8th (Binary Search).vcxproj|solutionrelative:Class8th (Binary Search)\\Class8th (Binary Search).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -46,24 +58,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class8th (Binary Search).cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class8th (Binary Search)\\Class8th (Binary Search).cpp",
-              "RelativeDocumentMoniker": "Class8th (Binary Search)\\Class8th (Binary Search).cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class8th (Binary Search)\\Class8th (Binary Search).cpp",
-              "RelativeToolTip": "Class8th (Binary Search)\\Class8th (Binary Search).cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class11th (Quick Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class11th (Quick Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class11th (Quick Sort)\\Source.cpp",
+              "RelativeToolTip": "Class11th (Quick Sort)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T06:11:47.996Z",
+              "WhenOpened": "2025-01-16T06:17:29.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class9th (Count Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class9th (Count Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class9th (Count Sort)\\Source.cpp",
+              "RelativeToolTip": "Class9th (Count Sort)\\Source.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T04:05:12.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class7th (Two Pointer)\\Source.cpp",
               "RelativeDocumentMoniker": "Class7th (Two Pointer)\\Source.cpp",
@@ -71,12 +96,11 @@
               "RelativeToolTip": "Class7th (Two Pointer)\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T05:25:34.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T05:25:34.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class6th (Seive of Eratosthenes)\\Source.cpp",
               "RelativeDocumentMoniker": "Class6th (Seive of Eratosthenes)\\Source.cpp",
@@ -84,12 +108,11 @@
               "RelativeToolTip": "Class6th (Seive of Eratosthenes)\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T04:14:18.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T04:14:18.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class5th (Insert Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class5th (Insert Sort)\\Source.cpp",
@@ -101,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class4th (Select Sort)\\Source.cpp",
@@ -113,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
@@ -125,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class2th (Brute Force)\\Source.cpp",
               "RelativeDocumentMoniker": "Class2th (Brute Force)\\Source.cpp",
@@ -137,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
               "RelativeDocumentMoniker": "Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
@@ -155,10 +178,35 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T04:19:09.636Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class10th (Divide And Conquer)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class10th (Divide And Conquer)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class10th (Divide And Conquer)\\Source.cpp",
+              "RelativeToolTip": "Class10th (Divide And Conquer)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T05:02:11.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class8th (Binary Search).cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class8th (Binary Search)\\Class8th (Binary Search).cpp",
+              "RelativeDocumentMoniker": "Class8th (Binary Search)\\Class8th (Binary Search).cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class8th (Binary Search)\\Class8th (Binary Search).cpp",
+              "RelativeToolTip": "Class8th (Binary Search)\\Class8th (Binary Search).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-15T06:11:47.996Z"
             }
           ]
         }
