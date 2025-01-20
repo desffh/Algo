@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{012ADDCF-B35E-46EE-A777-E47EFB59B7C8}|Class15th (Dynamic Programming)\\Class15th (Dynamic Programming).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class15th (Dynamic Programming)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{012ADDCF-B35E-46EE-A777-E47EFB59B7C8}|Class15th (Dynamic Programming)\\Class15th (Dynamic Programming).vcxproj|solutionrelative:Class15th (Dynamic Programming)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DCC63C-999D-4774-B282-6B848C8CCEEE}|Class14th (Greedy)\\Class14th (Greedy).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class14th (Greedy)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6DCC63C-999D-4774-B282-6B848C8CCEEE}|Class14th (Greedy)\\Class14th (Greedy).vcxproj|solutionrelative:Class14th (Greedy)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21CFD76D-2126-4E8E-86C5-AD58B2465FA4}|Class13th (Euclidean)\\Class13th (Euclidean).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class13th (Euclidean)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21CFD76D-2126-4E8E-86C5-AD58B2465FA4}|Class13th (Euclidean)\\Class13th (Euclidean).vcxproj|solutionrelative:Class13th (Euclidean)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -72,18 +80,18 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class13th (Euclidean)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class13th (Euclidean)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class13th (Euclidean)\\Source.cpp",
-              "RelativeToolTip": "Class13th (Euclidean)\\Source.cpp",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwD8AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class15th (Dynamic Programming)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class15th (Dynamic Programming)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class15th (Dynamic Programming)\\Source.cpp",
+              "RelativeToolTip": "Class15th (Dynamic Programming)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-17T06:08:58.485Z",
+              "WhenOpened": "2025-01-20T05:42:11.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class9th (Count Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class9th (Count Sort)\\Source.cpp",
@@ -95,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class7th (Two Pointer)\\Source.cpp",
               "RelativeDocumentMoniker": "Class7th (Two Pointer)\\Source.cpp",
@@ -107,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class6th (Seive of Eratosthenes)\\Source.cpp",
               "RelativeDocumentMoniker": "Class6th (Seive of Eratosthenes)\\Source.cpp",
@@ -119,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class5th (Insert Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class5th (Insert Sort)\\Source.cpp",
@@ -131,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class4th (Select Sort)\\Source.cpp",
@@ -143,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
@@ -155,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class2th (Brute Force)\\Source.cpp",
               "RelativeDocumentMoniker": "Class2th (Brute Force)\\Source.cpp",
@@ -167,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
               "RelativeDocumentMoniker": "Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
@@ -185,7 +193,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T04:19:09.636Z",
               "EditorCaption": ""
@@ -194,18 +202,42 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class14th (Greedy)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class14th (Greedy)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class14th (Greedy)\\Source.cpp",
+              "RelativeToolTip": "Class14th (Greedy)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-20T04:10:55.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class13th (Euclidean)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class13th (Euclidean)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class13th (Euclidean)\\Source.cpp",
+              "RelativeToolTip": "Class13th (Euclidean)\\Source.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T06:08:58.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class12th (Merge Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class12th (Merge Sort)\\Source.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class12th (Merge Sort)\\Source.cpp",
               "RelativeToolTip": "Class12th (Merge Sort)\\Source.cpp",
               "ViewState": "AgIAAEEAAAAAAAAAAAAgwGEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-17T05:06:48.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T05:06:48.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class11th (Quick Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class11th (Quick Sort)\\Source.cpp",
@@ -217,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class10th (Divide And Conquer)\\Source.cpp",
               "RelativeDocumentMoniker": "Class10th (Divide And Conquer)\\Source.cpp",
@@ -229,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Class8th (Binary Search).cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class8th (Binary Search)\\Class8th (Binary Search).cpp",
               "RelativeDocumentMoniker": "Class8th (Binary Search)\\Class8th (Binary Search).cpp",
