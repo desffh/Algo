@@ -1,40 +1,92 @@
 ﻿#include <iostream>
-
+#include <vector>
+#include <queue>
+#define SIZE 8
 using namespace std;
 
-int element[3] = { 1,2,3 };
-
-void Permutation(int n, int list[], int depth)
+class Graph
 {
-	if (depth >= 0)
-	{
-		for (int i = 0; i < n; i++)
-		{
-			return swap(list[depth], list[i]);
-		}
-		depth++;
+private:
+	bool visited[SIZE];
 
-		Permutation(n, list, depth);
+	// 인접 리스트
+	vector<int> graph[SIZE];
+
+	queue<int> queue;
+
+public:
+	Graph()
+	{
+		for (int i = 0; i < SIZE; i++)
+		{
+			visited[i] = false;
+		}
 	}
 
-}
+	void Insert(int vertex, int edge)
+	{
+		graph[vertex].push_back(edge);
+		graph[edge].push_back(vertex);
+	}
+
+	void Search(int start)
+	{
+		// 1. 큐에 넣고, 임시변수에 넣고 방문체크 하고,큐에서 빼고 출력
+
+		// 큐에 넣고
+		queue.push(visited[start]);
+		
+		// 시작방문체크
+		visited[start] = true;
+		
+		int x = visited[start];
+
+		cout << x << " ";
+		
+		queue.pop();
+
+		while (!queue.empty())
+		{
+			for (int i = 0; i < graph[start].size(); i++)
+			{
+				int next = graph[start][i];
+
+				if (visited[next] == false)
+				{
+					queue.push(visited[next]);
+					visited[next] = true;
+				}
+			}
+		}
+	}
+};
 
 
 int main()
 {
-#pragma region 백트래킹
-	// 해를 찾아가는 도중에 지금의 경로가 해가 될 것 같지 않으면,
-	// 더 이상 깊이 들어가지 않고, 이전 단계로 다시 
-	// 돌아가는 알고리즘입니다.
+#pragma region 너비 우선 탐색 (Breadth First Search)
+	// 시작 정점을 방문한 후 시작 정점에 인접한
+	// 모든 정점들을 우선 방문하는 방법입니다.
 
-	// 백트래킹의 유망성 판단
-	// 해가 될 만한지 판단한 후에 유망하지 않다고 결정되면,
-	// 그 노드의 이전 노드로 돌아가, 다음 자식 노드로 이동합니다.
-	
-	// 해가 될 만한 가능이 있으면 유망하다 (Promising)
-	// 유망하지 않은 노드에 가지 않는 것  (Pruning)
-	
+	// 더 이상 방문하지 않은 정점이 없을 때까지
+	// 방문하지 않은 모든 정점들에 대해서도 너비 우선 탐색을 적용합니다.
+
+	Graph graph;
+
+	graph.Insert(1, 2);
+	graph.Insert(1, 3);
+
+	graph.Insert(2, 4);
+	graph.Insert(2, 5);
+
+	graph.Insert(3, 6);
+	graph.Insert(3, 7);
+
+
+	graph.Search(1);
 #pragma endregion
+
+
 
 
 
