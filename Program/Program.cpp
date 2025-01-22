@@ -1,62 +1,33 @@
 ﻿#include <iostream>
-#include <vector>
-#include <queue>
-#define SIZE 8
+#define SIZE 7
 using namespace std;
 
 class Graph
 {
 private:
-	bool visited[SIZE];
-
-	// 인접 리스트
-	vector<int> graph[SIZE];
-
-	queue<int> queue;
+	// 부모 배열
+	int parent[SIZE];
+	
 
 public:
 	Graph()
 	{
-		for (int i = 0; i < SIZE; i++)
+		for (int i = 1; i < SIZE; i++)
 		{
-			visited[i] = false;
+			parent[i] = i;
 		}
 	}
 
-	void Insert(int vertex, int edge)
+	int Find(int x)
 	{
-		graph[vertex].push_back(edge);
-		graph[edge].push_back(vertex);
-	}
-
-	void Search(int start)
-	{
-		// 1. 큐에 넣고, 임시변수에 넣고 방문체크 하고,큐에서 빼고 출력
-
-		// 큐에 넣고
-		queue.push(visited[start]);
-		
-		// 시작방문체크
-		visited[start] = true;
-		
-		int x = visited[start];
-
-		cout << x << " ";
-		
-		queue.pop();
-
-		while (!queue.empty())
+		if (parent[x] == x)
 		{
-			for (int i = 0; i < graph[start].size(); i++)
-			{
-				int next = graph[start][i];
+			return x;
+		}
 
-				if (visited[next] == false)
-				{
-					queue.push(visited[next]);
-					visited[next] = true;
-				}
-			}
+		else
+		{
+			return parent[x] = Find(parent[x]);
 		}
 	}
 };
@@ -64,31 +35,18 @@ public:
 
 int main()
 {
-#pragma region 너비 우선 탐색 (Breadth First Search)
-	// 시작 정점을 방문한 후 시작 정점에 인접한
-	// 모든 정점들을 우선 방문하는 방법입니다.
+#pragma region 유니온 파인드
+	// 여러 노드가 존재할 때 어떤 노드가 다른 노드와 
+	// 연결되어 있는 지 확인하는 알고리즘입니다.
 
-	// 더 이상 방문하지 않은 정점이 없을 때까지
-	// 방문하지 않은 모든 정점들에 대해서도 너비 우선 탐색을 적용합니다.
+	// Union 연산 : 특정한 두 개의 노드를 같은 집합으로 합치는 연산입니다.
 
-	Graph graph;
+	// Find 연산 : 특정한 노드가 어느 집합에 있는 지 확인하는 연산입니다.
 
-	graph.Insert(1, 2);
-	graph.Insert(1, 3);
-
-	graph.Insert(2, 4);
-	graph.Insert(2, 5);
-
-	graph.Insert(3, 6);
-	graph.Insert(3, 7);
-
-
-	graph.Search(1);
+	// 시간 복잡도
+	// O(M log N) : M 연산의 개수, N은 노드의 개수
+	// M이 N²에 가까울 때 O(N²logN)이 됩니다.
 #pragma endregion
-
-
-
-
 
 	return 0;
 }
