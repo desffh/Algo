@@ -1,18 +1,64 @@
 ﻿#include <iostream>
-#define SIZE 7
+#include <algorithm>
+#include <vector>
+#define SIZE 8
 using namespace std;
+
+// 유니온 파인드를 사용해서 사이클이 발생하는지 확인
 
 class Graph
 {
 private:
-	// 부모 배열
-	int parent[SIZE];
+
+	class Edge
+	{
+	private:
+		int x;
+		int y;
+		int distance;
+
+	public:
+		Edge(int x, int y, int distance)
+		{
+			this->x = x;
+			this->y = y;
+			this->distance = distance;
+		}
+
+		const int & X()
+		{
+			return x;
+		}
+		const int & Y()
+		{
+			return y;
+		}
+		const int & Distance()
+		{
+			return distance;
+		}
+
+		const bool & operator < (const Edge & edge)
+		{
+			return distance < edge.distance;
+		}
+
+	};
+
 	
+
+	int parent[SIZE]; // 부모배열
+	 
+	int cost; // 최소비용
+
+	vector <Edge> graph;
 
 public:
 	Graph()
 	{
-		for (int i = 1; i < SIZE; i++)
+		cost = 0;
+
+		for (int i = 0; i < SIZE; i++)
 		{
 			parent[i] = i;
 		}
@@ -30,23 +76,103 @@ public:
 			return parent[x] = Find(parent[x]);
 		}
 	}
+
+	void Union(int x, int y)
+	{
+		x = Find(x);
+		y = Find(y);
+
+		if (x < y)
+		{
+			parent[y] = x;
+		}
+		else
+		{
+			parent[x] = y;
+		}
+	}
+
+	bool Same(int x, int y)
+	{
+		return Find(x) == Find(y);
+	}
+
+
+	void Insert(int x, int y, int distance)
+	{
+		graph.push_back(Edge(x,y,distance));
+	}
+
+	void Kruskal()
+	{
+		// 오름차순 정렬
+		sort(graph.begin(), graph.end());
+
+		for (int i = 0; i < graph.size(); i++)
+		{
+			cout << graph[i].X() << " " << graph[i].Y() 
+				<< " " << graph[i].Distance() << endl;
+		}
+
+		for (int i = 0; i < graph.size(); i++)
+		{
+			if (Same(graph[i].X(), graph[i].Y()))
+			{
+				continue;
+			}
+			else
+			{
+				
+			}
+		}
+	}
+
+
 };
+
+
 
 
 int main()
 {
-#pragma region 유니온 파인드
-	// 여러 노드가 존재할 때 어떤 노드가 다른 노드와 
-	// 연결되어 있는 지 확인하는 알고리즘입니다.
+#pragma region 신장 트리
+	// 그래프의 모든 정점을 포함하면서 사이클이 존재하지 않는
+	// 부분 그래프로, 그래프의 모든 정점을 최소 비용으로
+	// 연결하는 트리입니다.
 
-	// Union 연산 : 특정한 두 개의 노드를 같은 집합으로 합치는 연산입니다.
+	// 그래프의 정점의 수가 n개일 때, 간선의 수는 n - 1개 입니다.
 
-	// Find 연산 : 특정한 노드가 어느 집합에 있는 지 확인하는 연산입니다.
+	// 최소 비용 신장 트리
+	// 그래프의 간선들의 가중치 합이 최소인 신장 트리
 
-	// 시간 복잡도
-	// O(M log N) : M 연산의 개수, N은 노드의 개수
-	// M이 N²에 가까울 때 O(N²logN)이 됩니다.
+	Graph graph;
+
+	graph.Insert(1, 7, 10);
+	graph.Insert(4, 7, 14);
+
+	graph.Insert(1, 4, 25);
+	graph.Insert(2, 4, 22);
+	
+	graph.Insert(1, 2, 63);
+	graph.Insert(1, 5, 16);
+
+	graph.Insert(2, 5, 60);
+	graph.Insert(3, 5, 20);
+
+	graph.Insert(3, 6, 31);
+	graph.Insert(5, 6, 49);
+
+	graph.Kruskal();
+
+
+
+
+
 #pragma endregion
+
+
+
+
 
 	return 0;
 }
