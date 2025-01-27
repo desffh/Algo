@@ -38,6 +38,7 @@ private:
 			return distance;
 		}
 
+		// sort를 사용하기 위해 사용자 정의 연산자 오버로딩
 		const bool& operator < (const Edge& edge)
 		{
 			return distance < edge.distance;
@@ -49,15 +50,16 @@ private:
 
 	int parent[SIZE]; // 부모배열
 
-	int cost; // 최소비용
+	int cost; // 최소비용 = 가중치의 합이 최소
 
-	vector <Edge> graph;
+	vector <Edge> graph; // 간선 정보를 저장할 벡터배열
 
 public:
 	Graph()
 	{
 		cost = 0;
 
+		// 부모배열 초기화
 		for (int i = 0; i < SIZE; i++)
 		{
 			parent[i] = i;
@@ -97,6 +99,7 @@ public:
 		return Find(x) == Find(y);
 	}
 
+	// 벡터에 간선 정보 삽입
 	void Insert(int x, int y, int distance)
 	{
 		graph.push_back(Edge(x, y, distance));
@@ -115,10 +118,13 @@ public:
 
 		for (int i = 0; i < graph.size(); i++)
 		{
+			// 정점x와 정점y의 root노드가 같다면 같은 집합이기 때문에 건너뛰기
 			if (Same(graph[i].X(), graph[i].Y()))
 			{
 				continue;
 			}
+
+			// 다르다면 가중치를 누적하고 간선 연결(부모노드 갱신)
 			else
 			{
 				cost += graph[i].Distance();
@@ -161,7 +167,6 @@ int main()
 	graph.Insert(5, 6, 49);
 
 	graph.Kruskal();
-
 
 
 
