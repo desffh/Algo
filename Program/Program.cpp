@@ -1,109 +1,154 @@
 ﻿#include <iostream>
-
+#include <vector>
+#include <stack>
+#define SIZE 12
 
 using namespace std;
 
-// 문자열 매칭
-// 1. Naive방식
-// 2. Rabin - Karp 알고리즘
-// 3. 오토 마타
-// 4. 보이어 무어
-// 5. KMP
-
-void Naive(const char * key, const char * other)
+class Graph
 {
-	// 시간 복잡도 n * m
-	int n = strlen(key);
-	int m = strlen(other);
+private:
 
-	int j = 0;
+	bool finished[SIZE]; // 방문 배열
+	
+	vector<vector<int>> scc; // scc저장벡터
 
-	for (int i = 0; i < n - m; i++)
+	vector<int> graph[SIZE]; // 그래프
+
+	int parent[SIZE]; // 부모 배열
+	
+	stack<int> stack;
+	
+	int id; 
+public:
+	Graph()
 	{
-		for (j = 0; j < m; j++)
-		{
-			if (key[i + j] != other[j])
-			{
-				break;
-			}
-		}
+		id = 0;
 
-		if(j == m)
+		for (int i = 0; i < SIZE; i++)
 		{
-			cout << "Pattern Found at Index" << i << endl;
+			finished[i] = false;
+			parent[i] = 0;
 		}
 	}
-}
 
-// 65 66 67
-// A  B  C
-
-void RabinKarp(const char* pattern, const char* text)
-{
-	int patternHash = 0;
-	int Hash = 0;
-	int power = 1; // 곱하기 누적
-
-	int patternSize = strlen(pattern);
-	int textSize = strlen(text);
-
-	for (int i = 0; i <= patternSize - textSize; i++)
+	void Insert(int vertex, int edge)
 	{
-		if (i == 0)
+		graph[vertex].push_back(edge);
+	}
+
+	int Search(int start)
+	{
+		parent[start] = ++id; // 노드마다 고유한 번호
+
+		stack.push(start); // stack에 자기 자신을 삽입합니다.
+
+		int x = parent[start];
+
+
+		for (int i = 0; i < graph[start].size(); i++)
 		{
-			for (int j = 0; j < textSize; j++)
+			int next = graph[start][i];
+			
+			if (parent[next] == 0) // 방문하지 않은 이웃 노드
+			{ 
+				x = min(x, Search(next));
+			}
+
+			else if (!finished[next]) // 처리중인 이웃 노드
 			{
-				patternHash = patternHash + pattern[textSize - 1 - j] * power;
-
-				Hash = Hash + text[textSize - 1 - j] * power;
-
-				if (j < textSize - 1)
-				{
-					power = power * 2;
-				}
+				x = min(x, parent[next]);
 			}
 		}
-		else
-		{
-			patternHash = 2 * (patternHash - pattern[i - 1] * power) + pattern[textSize - 1 + i];
-		}
 
-		if (patternHash == Hash)
+		if (x == parent[start]) // 부모 노드가 자기 자신인 경우
 		{
-			bool flag = true;
+			vector <int> clone;
 
-			for (int j = 0; j < textSize; j++)
+			while (1)
 			{
-				if (pattern[i + j] != text[j])
+				int top = stack.top();
+
+				stack.pop();
+
+				clone.push_back(top);
+
+				finished[top] = true;
+
+				if (top == start)
 				{
-					flag = false;
 					break;
 				}
 			}
 
-			if (flag == true)
-			{
-				cout << i << "번째에서 발견하였습니다." << endl;
-			}
-		} 
+			scc.push_back(clone);
+		}
 
+		return x;
 	}
 
-}
+	const int & operator [] (int index)
+	{
+		return parent[index];
+	}
+
+	const int & Count()
+	{
+		return scc.size();
+	}
+
+	void Show()
+	{
+		for (int i = 0; i < scc.size(); i++)
+		{
+			for (int j = 0; j < scc[i].size(); j++)
+			{
+				cout << scc[i][j] << " ";
+			}
+			cout << endl;
+		}
+	}
+};
 
 
 int main()
 {
-#pragma region 문자열 매칭
+#pragma region 강한 결합 요소
+	// 유향 그래프에서 모든 정점이 모든 다른 정점에 대해
+	// 도달 가능한 경우, 그래프는 강하게 연결되었다는 그래프입니다.
 
-	// 문자열에 해싱 기법을 사용하여 해시 값으로
-	// 비교하는 문자열 알고리즘입니다.
+	Graph graph;
 
+	graph.Insert(1, 2);
+	graph.Insert(2, 3);
+	graph.Insert(3, 1);
 
-	//Naive("AABAAAB", "AA");
-	// 0, 3, 4
+	graph.Insert(4, 2);
+	graph.Insert(4, 5);
 
-	RabinKarp("BCABCD","ABC");
+	graph.Insert(5, 7);
+	graph.Insert(6, 5);
+	graph.Insert(7, 6);
+
+	graph.Insert(8, 5);
+	graph.Insert(8, 9);
+
+	graph.Insert(9, 10);
+	graph.Insert(10, 11);
+
+	graph.Insert(11, 3);
+	graph.Insert(11, 8);
+	
+	for (int i = 1; i < SIZE; i++)
+	{
+		if (graph[i] == 0)
+		{
+			graph.Search(i);
+		}
+	}
+
+	cout << graph.Count() << endl; 
+	graph.Show();
 
 #pragma endregion
 
