@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E449321-B696-4D02-A288-6C9B063A5E9C}|Tazan\\Tazan.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E449321-B696-4D02-A288-6C9B063A5E9C}|Tazan\\Tazan.vcxproj|solutionrelative:Tazan\\Tazan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|solutionrelative:Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E3F19E3E-6A45-41D8-85C5-68B9E9390EF0}|Recursive\\Recursive.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Recursive\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E3F19E3E-6A45-41D8-85C5-68B9E9390EF0}|Recursive\\Recursive.vcxproj|solutionrelative:Recursive\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892D315C-8F60-4729-A23F-E51C5F157D8E}|N-Queen\\N-Queen.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\N-Queen\\N-Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{892D315C-8F60-4729-A23F-E51C5F157D8E}|N-Queen\\N-Queen.vcxproj|solutionrelative:N-Queen\\N-Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|solutionrelative:Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6FEE2DE-6662-4BC9-8928-3CE36407084D}|Class21th (Minimum Spanning Tree)\\Class21th (Minimum Spanning Tree).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class21th (Minimum Spanning Tree)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -110,48 +118,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class23th (RabinKarp).cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "RelativeDocumentMoniker": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "RelativeToolTip": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwHEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Tazan.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp",
+              "RelativeDocumentMoniker": "Tazan\\Tazan.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp",
+              "RelativeToolTip": "Tazan\\Tazan.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwFIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T04:05:17.448Z",
+              "WhenOpened": "2025-02-04T11:01:00.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class6th (Seive of Eratosthenes)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class6th (Seive of Eratosthenes)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class6th (Seive of Eratosthenes)\\Source.cpp",
-              "RelativeToolTip": "Class6th (Seive of Eratosthenes)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAALAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeToolTip": "Class3th (Bubble Sort)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T04:14:18.748Z"
+              "WhenOpened": "2025-01-13T06:32:11.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class5th (Insert Sort)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class5th (Insert Sort)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class5th (Insert Sort)\\Source.cpp",
-              "RelativeToolTip": "Class5th (Insert Sort)\\Source.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class2th (Brute Force)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class2th (Brute Force)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class2th (Brute Force)\\Source.cpp",
+              "RelativeToolTip": "Class2th (Brute Force)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-14T05:41:27.066Z"
+              "WhenOpened": "2025-01-13T05:36:02.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 1,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T04:19:09.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class4th (Select Sort)\\Source.cpp",
@@ -165,42 +186,41 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
-              "RelativeToolTip": "Class3th (Bubble Sort)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class5th (Insert Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class5th (Insert Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class5th (Insert Sort)\\Source.cpp",
+              "RelativeToolTip": "Class5th (Insert Sort)\\Source.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T06:32:11.386Z"
+              "WhenOpened": "2025-01-14T05:41:27.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class2th (Brute Force)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class2th (Brute Force)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class2th (Brute Force)\\Source.cpp",
-              "RelativeToolTip": "Class2th (Brute Force)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class6th (Seive of Eratosthenes)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class6th (Seive of Eratosthenes)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class6th (Seive of Eratosthenes)\\Source.cpp",
+              "RelativeToolTip": "Class6th (Seive of Eratosthenes)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T05:36:02.175Z"
+              "WhenOpened": "2025-01-15T04:14:18.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp",
-              "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp",
-              "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAmwJUAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Class23th (RabinKarp).cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "RelativeDocumentMoniker": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "RelativeToolTip": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwHEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T04:19:09.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T04:05:17.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class7th (Two Pointer)\\Source.cpp",
               "RelativeDocumentMoniker": "Class7th (Two Pointer)\\Source.cpp",
@@ -209,30 +229,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T05:25:34.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class21th (Minimum Spanning Tree)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class21th (Minimum Spanning Tree)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class21th (Minimum Spanning Tree)\\Source.cpp",
-              "RelativeToolTip": "Class21th (Minimum Spanning Tree)\\Source.cpp",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAmwKwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-24T04:16:29.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class22th (Dijkstra)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class22th (Dijkstra)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class22th (Dijkstra)\\Source.cpp",
-              "RelativeToolTip": "Class22th (Dijkstra)\\Source.cpp",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-24T06:37:51.892Z"
             },
             {
               "$type": "Document",
@@ -249,7 +245,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 3,
+              "Title": "N-Queen.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\N-Queen\\N-Queen.cpp",
+              "RelativeDocumentMoniker": "N-Queen\\N-Queen.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\N-Queen\\N-Queen.cpp",
+              "RelativeToolTip": "N-Queen\\N-Queen.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T08:07:13.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class21th (Minimum Spanning Tree)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class21th (Minimum Spanning Tree)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class21th (Minimum Spanning Tree)\\Source.cpp",
+              "RelativeToolTip": "Class21th (Minimum Spanning Tree)\\Source.cpp",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAmwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-24T04:16:29.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class22th (Dijkstra)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class22th (Dijkstra)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class22th (Dijkstra)\\Source.cpp",
+              "RelativeToolTip": "Class22th (Dijkstra)\\Source.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-24T06:37:51.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
               "RelativeDocumentMoniker": "Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
@@ -261,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class20th (Union Find)\\Source.cpp",
               "RelativeDocumentMoniker": "Class20th (Union Find)\\Source.cpp",
@@ -273,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class19th (Topology Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class19th (Topology Sort)\\Source.cpp",
@@ -285,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class9th (Count Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class9th (Count Sort)\\Source.cpp",
@@ -297,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class18th (Breadth First Search)\\Source.cpp",
               "RelativeDocumentMoniker": "Class18th (Breadth First Search)\\Source.cpp",
@@ -309,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class17th (Depth First Search)\\Source.cpp",
               "RelativeDocumentMoniker": "Class17th (Depth First Search)\\Source.cpp",
@@ -321,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class16th (Back Tracking)\\Source.cpp",
               "RelativeDocumentMoniker": "Class16th (Back Tracking)\\Source.cpp",
@@ -333,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class15th (Dynamic Programming)\\Source.cpp",
               "RelativeDocumentMoniker": "Class15th (Dynamic Programming)\\Source.cpp",
@@ -345,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class14th (Greedy)\\Source.cpp",
               "RelativeDocumentMoniker": "Class14th (Greedy)\\Source.cpp",
@@ -357,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class13th (Euclidean)\\Source.cpp",
               "RelativeDocumentMoniker": "Class13th (Euclidean)\\Source.cpp",
@@ -369,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class12th (Merge Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class12th (Merge Sort)\\Source.cpp",
@@ -381,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class11th (Quick Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class11th (Quick Sort)\\Source.cpp",
@@ -393,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class10th (Divide And Conquer)\\Source.cpp",
               "RelativeDocumentMoniker": "Class10th (Divide And Conquer)\\Source.cpp",
@@ -405,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Class8th (Binary Search).cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class8th (Binary Search)\\Class8th (Binary Search).cpp",
               "RelativeDocumentMoniker": "Class8th (Binary Search)\\Class8th (Binary Search).cpp",
