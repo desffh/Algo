@@ -4,7 +4,7 @@
 using namespace std;
 
 // 문자열 매칭
-// 1. Naive방식
+// 1. Naive방식 O
 // 2. Rabin - Karp 알고리즘
 // 3. 오토 마타
 // 4. 보이어 무어
@@ -13,12 +13,14 @@ using namespace std;
 void Naive(const char* key, const char* other)
 {
 	// 시간 복잡도 n * m
+	// 문자열 길이 (null문자한 제외)
 	int n = strlen(key);
 	int m = strlen(other);
 
 	int j = 0;
 
-	for (int i = 0; i < n - m; i++)
+	// 등호를 중요시 하자
+	for (int i = 0; i <= n - m; i++)
 	{
 		for (j = 0; j < m; j++)
 		{
@@ -35,9 +37,11 @@ void Naive(const char* key, const char* other)
 	}
 }
 
+
 // 65 66 67 
 // A  B  C
 
+// pattern : 기존 문자열 , text : 찾고자 하는 문자열
 void RabinKarp(const char* pattern, const char* text)
 {
 	int patternHash = 0;
@@ -99,11 +103,9 @@ int main()
 	// 문자열에 해싱 기법을 사용하여 해시 값으로
 	// 비교하는 문자열 알고리즘입니다.
 
+	Naive("ADADAD", "AD"); // n = 6 m = 2 결과값: 0 2 4  인덱스 번호
 
-	//Naive("AABAAAB", "AA");
-	// 0, 3, 4
-
-	RabinKarp("BCABCD", "ABC");
+	//RabinKarp("BCABCD", "ABC");
 
 #pragma endregion
 

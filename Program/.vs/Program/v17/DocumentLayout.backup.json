@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E449321-B696-4D02-A288-6C9B063A5E9C}|Tazan\\Tazan.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3E449321-B696-4D02-A288-6C9B063A5E9C}|Tazan\\Tazan.vcxproj|solutionrelative:Tazan\\Tazan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|solutionrelative:Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A66B69B2-3D71-44D1-8A59-808CC80AB4EA}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E449321-B696-4D02-A288-6C9B063A5E9C}|Tazan\\Tazan.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E449321-B696-4D02-A288-6C9B063A5E9C}|Tazan\\Tazan.vcxproj|solutionrelative:Tazan\\Tazan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3F19E3E-6A45-41D8-85C5-68B9E9390EF0}|Recursive\\Recursive.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Recursive\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{892D315C-8F60-4729-A23F-E51C5F157D8E}|N-Queen\\N-Queen.vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\N-Queen\\N-Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{892D315C-8F60-4729-A23F-E51C5F157D8E}|N-Queen\\N-Queen.vcxproj|solutionrelative:N-Queen\\N-Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A9413C64-2CB1-48DE-BB1C-4E448C27EF8D}|Class23th (RabinKarp)\\Class23th (RabinKarp).vcxproj|solutionrelative:Class23th (RabinKarp)\\Class23th (RabinKarp).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6FEE2DE-6662-4BC9-8928-3CE36407084D}|Class21th (Minimum Spanning Tree)\\Class21th (Minimum Spanning Tree).vcxproj|C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class21th (Minimum Spanning Tree)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -118,32 +118,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tazan.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp",
-              "RelativeDocumentMoniker": "Tazan\\Tazan.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp",
-              "RelativeToolTip": "Tazan\\Tazan.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAUwFIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T11:01:00.819Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
-              "RelativeToolTip": "Class3th (Bubble Sort)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-13T06:32:11.386Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
             },
             {
               "$type": "Document",
@@ -165,7 +164,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwJwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T04:19:09.636Z",
               "EditorCaption": ""
@@ -196,6 +195,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class23th (RabinKarp).cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "RelativeDocumentMoniker": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "RelativeToolTip": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T04:05:17.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeToolTip": "Class3th (Bubble Sort)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T06:32:11.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tazan.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp",
+              "RelativeDocumentMoniker": "Tazan\\Tazan.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Tazan\\Tazan.cpp",
+              "RelativeToolTip": "Tazan\\Tazan.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwFMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T11:01:00.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class6th (Seive of Eratosthenes)\\Source.cpp",
@@ -205,18 +242,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T04:14:18.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class23th (RabinKarp).cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "RelativeDocumentMoniker": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "RelativeToolTip": "Class23th (RabinKarp)\\Class23th (RabinKarp).cpp",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwHEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T04:05:17.448Z"
             },
             {
               "$type": "Document",
@@ -232,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\Recursive\\Source.cpp",
               "RelativeDocumentMoniker": "Recursive\\Source.cpp",
@@ -240,12 +265,11 @@
               "RelativeToolTip": "Recursive\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-03T04:15:17.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T04:15:17.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "N-Queen.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algo\\Program\\N-Queen\\N-Queen.cpp",
               "RelativeDocumentMoniker": "N-Queen\\N-Queen.cpp",
@@ -253,8 +277,7 @@
               "RelativeToolTip": "N-Queen\\N-Queen.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T08:07:13.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:07:13.123Z"
             },
             {
               "$type": "Document",
@@ -447,6 +470,30 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T06:11:47.996Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 203,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
             }
           ]
         }
